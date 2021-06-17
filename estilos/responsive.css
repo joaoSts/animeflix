@@ -1,0 +1,54 @@
+@media screen and (max-width:700px) {
+    header .container{ /*wapper*/
+        display: flex;
+        flex-direction: column;/*mesmo sem ele o flex iria ficar em cima*/
+        
+        
+    }
+  .filme iframe{
+      width: 100%;
+  }
+  .botao{
+    margin-top: 5px;
+    width: 300px;
+
+}
+.info img{
+    width:200px;
+    
+}
+.info{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 120px;
+   align-items: center;
+  margin-top: 150px;
+}
+.sinopse h1{
+    padding: 0px;
+}
+.sinopse{
+    text-align: justify;
+  font-size: 12px;
+  width: 360px;
+}
+}
+@media screen and (min-width:1000px){
+    .filme iframe{
+        width: 50%;
+        height: 100%;
+        
+    }
+    .filme {
+        height: 500px;
+    }
+    .filme p{
+        display: none;
+    }
+    .descricao{
+        width: 50%;
+    }
+   
+}
